@@ -1,0 +1,47 @@
+.flex-container, .flex-container1 {
+    margin:;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 10px;
+}
+#A, #B, #C, #D, #E {
+    cursor: pointer;
+    justify-content: start;
+    flex-direction: row;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    text-align: 10px;
+    color: black;
+    border-left: 10px;
+    border-left-style: dotted;
+    border-left-color: #D0D0FF;
+    font-size: 40px;
+    font-family: Tahoma;
+    padding-left: 10px;
+}
+
+    #A:hover, #B:hover, #C:hover, #D:hover, #E:hover, #F:hover {
+        color: goldenrod;
+        background-color: yellow;
+    }
+
+.flex-container1 {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+#F{
+    background-color: #dfe1e7;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    text-align: 10px;
+    border-left: 10px;
+    border-left-style: dotted;
+    border-left-color: #D0D0FF;
+    border-right: 10px;
+    font-size: 40px;
+    font-family: Tahoma;
+}

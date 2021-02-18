@@ -1,0 +1,44 @@
+.flex-container, .flex-container1 {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#A, #C, #E {
+    background-color: #dfe1e7;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    text-align: center;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #687291;
+    font-size: 40px;
+    font-family: Tahoma;
+}
+#B, #D {
+    background-color: #eeeff2;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    text-align: center;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #687291;
+    font-size: 40px;
+    font-family: Tahoma;
+}
+#F {
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    background-color: #687291;
+    border-style: solid;
+    border-color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: Tahoma;
+}

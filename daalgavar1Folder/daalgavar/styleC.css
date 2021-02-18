@@ -1,0 +1,66 @@
+.flex-container, .flex-container1{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#A, #B, #C, #D, #E {
+    cursor: pointer;
+    justify-content: start;
+    flex-direction: row;
+    background-color: #D0D0FF;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    text-align: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: Tahoma;
+    padding-left: 10px;
+}
+#F {
+    cursor: pointer;
+    justify-content: start;
+    flex-direction: row;
+    background-color: #D0D0FF;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    text-align: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: Tahoma;
+    padding-left: 10px;
+    position: relative;
+    animation: mymove 4s;
+    animation-fill-mode: forwards
+}
+    #A:hover {
+        background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+    }
+    #B:hover {
+        width: 300px;
+    }
+    #C:hover {
+        background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+    #D:hover {
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+    #E:hover {
+        font-family: myFirstFont;
+        src: url(sansation_light.woff);
+    }
+ @keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
+    
